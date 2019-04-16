@@ -2,7 +2,7 @@ enablePlugins(org.nlogo.build.NetLogoExtension)
 
 netLogoExtName := "send-to"
 
-netLogoClassManager := "org.nlogo.extension.exportthe.SendToExtension"
+netLogoClassManager := "org.nlogo.extension.sendto.SendToExtension"
 
 netLogoZipSources := false
 
