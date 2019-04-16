@@ -1,0 +1,4 @@
+SendToFile
+  extensions [ send-to fetch ]
+  O> send-to:file "target/hello.txt" "Hello world!"
+  fetch:file "target/hello.txt" => "Hello world!"
