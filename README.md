@@ -2,11 +2,13 @@
 
 ## What is it?
 
+A NetLogo extension that lets you send string data outside of your NetLogo model.  Right now the only options is to send to a text file, using the `send-to:file` primitive.
+
 ## Primitives
 
 | Prim Name | Arguments             | Behavior
 | --------- | --------------------- | --------
-| `file`    | *fileName* *contents* | Saves the *contents* string as the file *fileName*.  Depending on the platform, the user may get a chance to change the file name before it is saved.
+| `file`    | *fileName* *contents* | Saves the *contents* string as the file *fileName*.  Depending on the platform, the user may get a chance to change the file name before it is saved.  If a file with the given name already exists, it may be overwritten.
 
 ## Building
 
