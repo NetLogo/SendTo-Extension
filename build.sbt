@@ -6,11 +6,11 @@ netLogoClassManager := "org.nlogo.extension.sendto.SendToExtension"
 
 netLogoZipSources := false
 
-version := "1.0.0"
+version := "1.0.1"
 
 isSnapshot := true
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.11"
 
 scalaSource in Compile := baseDirectory.value / "src"
 
@@ -22,4 +22,4 @@ scalacOptions ++= Seq("-deprecation", "-unchecked", "-Xfatal-warnings", "-encodi
 netLogoTarget :=
   org.nlogo.build.NetLogoExtension.directoryTarget(baseDirectory.value)
 
-netLogoVersion := "6.1.0-RC2"
+netLogoVersion := "6.1.1"
