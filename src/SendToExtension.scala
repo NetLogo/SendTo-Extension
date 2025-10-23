@@ -1,7 +1,6 @@
 package org.nlogo.extension.sendto
 
 import java.io.IOException
-import java.nio.charset.Charset
 import java.nio.file.{ Files, InvalidPathException, Path, Paths }
 
 import org.nlogo.api.{ Argument, Context, DefaultClassManager, ExtensionException, PrimitiveManager, Command, Workspace => ApiWorkspace }
